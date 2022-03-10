@@ -47,6 +47,9 @@ function getResult(){
     if (computerChoices === 'მაკრატელი' && userChoice ==='ჭა'){
         result = 'გილოცავ , შენ მოიგე 😎!'
     }
+    if (computerChoices === 'ქაღალდი' && userChoice ==='ჭა'){
+        result = 'წააგე 😢!'
+    }
     resultDisplay.innerHTML = result;
 }
 
