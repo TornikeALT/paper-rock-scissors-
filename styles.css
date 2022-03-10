@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+li{
+    padding: 2px;
+}
+input{
+    border: 1px solid green;
+    height: 30px;
+}
+button{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+button:hover{
+    transition: all .3s ease;
+    opacity: 80%;
+}
